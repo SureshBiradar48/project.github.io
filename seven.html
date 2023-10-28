@@ -1,0 +1,41 @@
+<h1>Course Registration Form</h1>
+
+<form>
+	<fieldset>
+		<legend>Personal Details</legend>
+		<table>
+			<tr><td><label>First Name</label></td><td><input type="text" name="FN" placeholder="Ex:Suresh" size="15"></td></tr>
+			<tr><td><label>Surname</label></td><td><input type="text" name="SN" placeholder="Ex:Biradar" size="15"></td></tr>
+			<tr><td><label>MobileNumber</label></td><td><input type="tel" name="mob" placeholder="829-666-5945" size="15<label></label>"></td></tr>
+			<tr><td><label>Email</label></td><td><input type="Email" name="mail" placeholder="suresh@gmail.com"size="15"></td></tr>
+			<tr><td><label>Password</label></td><td><input type="Password" name="pwd" placeholder="min 5 characters" size="15"></td></tr>
+			<tr><td><label>ConfirmPassword</label></td><td><input type="Password" name="cwpwd" placeholder="min 5 characters" size="15"></td></tr>
+			<tr><td><label>DOB</label></td><td><input type="date" name="dob"></td></tr>
+			<tr><td><label>Gender</label></td><td><input type="radio" name="gender" value="M">Male<input type="radio" name="gender" value="F">Female<input type="radio" name="gender" value="C">Custom</td></tr>
+			<tr><td><label>Select Country</label></td><td><select name="country">
+	<option value="INDIA">INDIA</option>
+	<option value="USA">USA</option>
+	<option value="CHINA">CHINA</option>
+</select></td></tr>
+			<tr><td><label>upload picture</label></td><td><input type="file" name=""></td></tr>
+		</table>
+<input type="reset" name="">
+</fieldset>
+
+<fieldset>
+	<legend>Course Details</legend>
+	<label>Select Course</label>
+	<select name="course">
+		<option value="JAVA COURSE">Java Full Stack</option>
+		<option value="DSA Course">DSA</option>
+		<option value="dotnet">DOTNET</option>
+
+	</select><br>
+	<label>Course Mode</label><input type="checkbox" name="mode1" value="online">Online<input type="checkbox" name="mode2" value="offline">offline<br>
+
+	<label>Comments</label><br>
+	<textarea rows="4" cols="40"></textarea>
+
+</fieldset>
+<input type="submit">
+</form>
